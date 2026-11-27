@@ -1,0 +1,4 @@
+This directory holds assets staged by build.ps1 at build time.
+
+The real runtime and model binaries are not committed; a plain `go build`
+produces a slim executable that uses files on disk instead.

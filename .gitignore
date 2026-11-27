@@ -1,0 +1,21 @@
+# build output
+/bin/
+/dist/
+*.exe
+*.dll
+*.test
+
+# local runtime data (index, models, logs)
+/data/
+/models/
+/logs/
+
+# assets staged by build.ps1 (large binaries, never committed)
+/internal/assets/data/runtime/
+/internal/assets/data/model/
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
